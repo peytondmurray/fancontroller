@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['ipsdisplay2_5fcfg_5fsetup_0',['ipsdisplay2_cfg_setup',['../group__ipsdisplay2.html#ga38e3a136ab9e29d2572a483c231198a5',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fdefault_5fcfg_1',['ipsdisplay2_default_cfg',['../group__ipsdisplay2.html#ga92a0a964ab32bbfa88e3b17a2b14c322',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fdisable_5fbacklight_2',['ipsdisplay2_disable_backlight',['../group__ipsdisplay2.html#ga18ac8f6e3b3267bd002232e43f8508a5',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fdisable_5fdevice_3',['ipsdisplay2_disable_device',['../group__ipsdisplay2.html#ga06d743e8d59795f69ac9083ef55fe46b',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fdraw_5fcircle_4',['ipsdisplay2_draw_circle',['../group__ipsdisplay2.html#ga09ae4958bc15253ba506ef433f63f416',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fdraw_5fline_5',['ipsdisplay2_draw_line',['../group__ipsdisplay2.html#gaf6e2a139cf96cdc89bc12f2908f723d0',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fdraw_5fpicture_6',['ipsdisplay2_draw_picture',['../group__ipsdisplay2.html#ga376e3b2a957586fd934204a0266b051c',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fdraw_5fpixel_7',['ipsdisplay2_draw_pixel',['../group__ipsdisplay2.html#ga3642435f52027d97aaacf47c63b6132b',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fdraw_5frectangle_8',['ipsdisplay2_draw_rectangle',['../group__ipsdisplay2.html#ga381f7e4e92ae3d7585e76ff3cf599fd0',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fenable_5fbacklight_9',['ipsdisplay2_enable_backlight',['../group__ipsdisplay2.html#ga8f6e0a1809d77958e45da1b255e2126b',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fenable_5fdevice_10',['ipsdisplay2_enable_device',['../group__ipsdisplay2.html#ga7276b883fcc4fb0d376e35a330ab94f9',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fenter_5fcmd_5fmode_11',['ipsdisplay2_enter_cmd_mode',['../group__ipsdisplay2.html#ga969df027bc017a827821292080f91e6e',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fenter_5fdata_5fmode_12',['ipsdisplay2_enter_data_mode',['../group__ipsdisplay2.html#ga0bc68abfd0e826c65599b8dc9355396b',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5ffill_5fscreen_13',['ipsdisplay2_fill_screen',['../group__ipsdisplay2.html#ga75348bcd5cdc89374a5154faf7e860c4',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5finit_14',['ipsdisplay2_init',['../group__ipsdisplay2.html#gafbdd40024e80d3840706e5b190537877',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5freset_5fdevice_15',['ipsdisplay2_reset_device',['../group__ipsdisplay2.html#ga684fb447e36bdc1077248d342225caf3',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fset_5fpos_16',['ipsdisplay2_set_pos',['../group__ipsdisplay2.html#ga1bcbf6e331a297df0702dbe03d90a6eb',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fset_5frotation_17',['ipsdisplay2_set_rotation',['../group__ipsdisplay2.html#ga26b4539e37c8066c332c58fd50eb9d2b',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fwrite_5fchar_18',['ipsdisplay2_write_char',['../group__ipsdisplay2.html#ga992560557d30cace93476669bc050035',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fwrite_5fcmd_19',['ipsdisplay2_write_cmd',['../group__ipsdisplay2.html#ga74ec673f196b433a6f4687388dd751c4',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fwrite_5fcmd_5fpar_20',['ipsdisplay2_write_cmd_par',['../group__ipsdisplay2.html#ga9236f5af74401036571959c47b6663b1',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fwrite_5fdata_21',['ipsdisplay2_write_data',['../group__ipsdisplay2.html#gac54960590c5d52576c380e2b0f03454c',1,'ipsdisplay2.h']]],
+  ['ipsdisplay2_5fwrite_5fstring_22',['ipsdisplay2_write_string',['../group__ipsdisplay2.html#ga45ae6c724a3f3322d672357cf2fc2e8a',1,'ipsdisplay2.h']]]
+];
