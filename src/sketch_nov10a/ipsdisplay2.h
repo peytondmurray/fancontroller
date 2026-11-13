@@ -46,10 +46,9 @@ extern "C"{
     #endif
 #endif
 
-#include "drv_digital_out.h"
-#include "drv_digital_in.h"
-#include "drv_spi_master.h"
-#include "spi_specifics.h"
+// Local Arduino Uno port of the mikroSDK GPIO, SPI and delay calls.
+#include "arduino_mikroe.h"
+#include "ipsdisplay2_resources.h"
 
 /*!
  * @addtogroup ipsdisplay2 IPS Display 2 Click Driver
@@ -442,8 +441,9 @@ extern "C"{
  * Can be overwritten with @b ipsdisplay2_init which will set
  * @b SET_SPI_DATA_SAMPLE_MIDDLE by default on the mapped mikrobus.
  */
-#define IPSDISPLAY2_SET_DATA_SAMPLE_EDGE        SET_SPI_DATA_SAMPLE_EDGE
-#define IPSDISPLAY2_SET_DATA_SAMPLE_MIDDLE      SET_SPI_DATA_SAMPLE_MIDDLE
+// PIC-only sampling controls do not apply to the ATmega328P.
+#define IPSDISPLAY2_SET_DATA_SAMPLE_EDGE
+#define IPSDISPLAY2_SET_DATA_SAMPLE_MIDDLE
 
 /*! @} */ // ipsdisplay2_set
 
@@ -773,7 +773,7 @@ err_t ipsdisplay2_write_char ( ipsdisplay2_t *ctx, ipsdisplay2_point_t start_pt,
  * See #err_t definition for detailed explanation.
  * @note None.
  */
-err_t ipsdisplay2_write_string ( ipsdisplay2_t *ctx, ipsdisplay2_point_t start_pt, uint8_t *data_in, uint16_t color );
+err_t ipsdisplay2_write_string ( ipsdisplay2_t *ctx, ipsdisplay2_point_t start_pt, const char *data_in, uint16_t color );
 
 /**
  * @brief IPS Display 2 draw pixel function.
@@ -856,7 +856,9 @@ err_t ipsdisplay2_draw_circle ( ipsdisplay2_t *ctx, ipsdisplay2_point_t center_p
  * See #err_t definition for detailed explanation.
  * @note None.
  */
+#if IPSDISPLAY2_RESOURCES_INCLUDE_IMG
 err_t ipsdisplay2_draw_picture ( ipsdisplay2_t *ctx, uint8_t rotation, const uint16_t *image );
+#endif
 
 #ifdef __cplusplus
 }
